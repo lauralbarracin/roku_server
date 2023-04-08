@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
+
 //import the sql package
 const sql = require('mysql');
 const creds = require('../config/user');
